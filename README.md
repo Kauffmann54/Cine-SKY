@@ -85,20 +85,20 @@ func getOverviewDetails(movieId: String, completion: @escaping (Result) -> Void)
 
 * LaunchScreen do aplicativo:
 
-<img src="/Users/guilhermekauffmann/Documents/CineSKY/Images/Cine_SKY_LaunchScreen.png" alt="Cine_SKY_LaunchScreen" style="zoom:20%; float: left;" />
+<img src="Images/Cine_SKY_LaunchScreen.png" alt="Cine_SKY_LaunchScreen" style="zoom:20%; float: left;" />
 
 * Tela inicial do app:
   * Recupera a lista de IDs dos filmes e para cada célula do CollectionView é feita uma requisição para obter os detalhes do
 
-<img src="/Users/guilhermekauffmann/Documents/CineSKY/Images/Cine_SKY_TelaInicial.png" alt="Cine_SKY_TelaInicial" style="zoom:20%; float: left;" />
+<img src="Images/Cine_SKY_TelaInicial.png" alt="Cine_SKY_TelaInicial" style="zoom:20%; float: left;" />
 
 * Tela de detalhe do filme:
   * Recupera os dados filme e insere na tela.
   * Recupera o link da imagem e o link do vídeo para poder ser exibido no player de vídeo.
 
-<img src="/Users/guilhermekauffmann/Documents/CineSKY/Images/Cine_SKY_Detail.png" alt="Cine_SKY_Detail" style="zoom:20%; float: left;" />
+<img src="Images/Cine_SKY_Detail.png" alt="Cine_SKY_Detail" style="zoom:20%; float: left;" />
 
 * Tela inicial quando não consegue recuperar a lista de filmes, exibe um alerta e tenta buscar novamente os dados a cada 10 segundos.
 
-<img src="/Users/guilhermekauffmann/Documents/CineSKY/Images/Cine_SKY_Error.png" alt="Cine_SKY_Error" style="zoom:20%; float: left;" />
+<img src="Images/Cine_SKY_Error.png" alt="Cine_SKY_Error" style="zoom:20%; float: left;" />
 

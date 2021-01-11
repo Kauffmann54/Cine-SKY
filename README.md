@@ -1,5 +1,7 @@
 # Desafio Cine SKY Swift/iOS
 
+#### Autor: Guilherme Kauffmann
+
 ## Objetivo:
 
 Utilizar uma API do RapidAPI e realizar a implementação de duas APIs do "IMDb API” (https://rapidapi.com/apidojo/api/imdb8/endpoints):

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XBO-bG-Xks">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="2sn-Om-K3Z">
+            <objects>
+                <viewController id="XBO-bG-Xks" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mOT-XI-U4X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CineSKY.png" translatesAutoresizingMaskIntoConstraints="NO" id="pYk-Ty-plD">
+                                <rect key="frame" x="50" y="289.5" width="314" height="317"/>
+                                <color key="backgroundColor" red="0.99709504839999996" green="0.0066451742309999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pYk-Ty-plD" secondAttribute="height" multiplier="103:104" id="MDR-ls-M5l"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5Mh-XM-lHP"/>
+                        <color key="backgroundColor" red="0.99709504839999996" green="0.0066451742309999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="pYk-Ty-plD" firstAttribute="centerX" secondItem="mOT-XI-U4X" secondAttribute="centerX" id="HlL-6s-fbG"/>
+                            <constraint firstItem="pYk-Ty-plD" firstAttribute="centerY" secondItem="mOT-XI-U4X" secondAttribute="centerY" id="V6p-EV-82P"/>
+                            <constraint firstItem="pYk-Ty-plD" firstAttribute="leading" secondItem="5Mh-XM-lHP" secondAttribute="leading" constant="50" id="hQT-Al-wsx"/>
+                            <constraint firstItem="5Mh-XM-lHP" firstAttribute="trailing" secondItem="pYk-Ty-plD" secondAttribute="trailing" constant="50" id="nt2-Fa-Pn0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZPk-2M-Hcv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CineSKY.png" width="2000" height="2000"/>
+    </resources>
+</document>

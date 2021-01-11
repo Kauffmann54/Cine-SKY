@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Cine SKY' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Cine SKY
+  pod 'Alamofire'
+  pod 'SkeletonView'
+  pod 'lottie-ios'
+  pod 'SwiftMessages'
+  pod 'SDWebImage'
+  pod 'Cosmos', '~> 23.0'
+
+  target 'Cine SKYTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Cine SKYUITests' do
+    # Pods for testing
+  end
+
+end
